@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">filemanagerapp</string>
+    <string name="Open_Drawyer">Open Navigation Drawyer</string>
+    <string name="Close_Drawyer">Close Navigation Drawyer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

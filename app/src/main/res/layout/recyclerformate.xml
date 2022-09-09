@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:id="@+id/format_card"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/folder"
+        android:layout_margin="8dp"
+        android:id="@+id/folder_icon"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="some text"
+        android:id="@+id/tv_filename"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/folder_icon"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:layout_marginStart="6dp"
+        android:textSize="19sp"/>
+
+    <TextView
+        android:id="@+id/tv_filesize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_filename"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="6dp"
+        android:layout_toRightOf="@id/folder_icon"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="file size"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
